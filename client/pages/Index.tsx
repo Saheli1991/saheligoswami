@@ -214,7 +214,7 @@ export default function Index() {
       about: {
         title: "मेरे बारे में",
         description:
-          "मैं एक भावुक ग्राफिक डिज़ाइनर हूं जिसके पास 5+ वर्षों का अनुभव है। मैं ब्रांडिंग, लोगो डिज़ाइन और डिजिटल ग्राफिक्स में विशेषज्ञ हूं।",
+          "मैं एक भावुक ग्राफिक डिज़ाइनर हूं जिसके पास 5+ वर्षों ��ा अनुभव है। मैं ब्रांडिंग, लोगो डिज़ाइन और डिजिटल ग्राफिक्स में विशेषज्ञ हूं।",
         skills: "कौशल और उपकरण",
       },
       portfolio: {
@@ -315,7 +315,7 @@ export default function Index() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-turquoise text-turquoise hover:bg-turquoise hover:text-turquoise-foreground px-8 py-6 text-lg rounded-full transform hover:scale-105 transition-all duration-300"
+                className="border-turquoise text-turquoise hover:bg-turquoise hover:text-turquoise-foreground px-8 py-6 text-xl rounded-full transform hover:scale-105 transition-all duration-300"
               >
                 <Download className="mr-2 h-5 w-5" />
                 {t.hero.resume}
@@ -676,7 +676,7 @@ export default function Index() {
                         : "border-turquoise text-turquoise hover:bg-turquoise/10"
                     }`}
                   >
-                    🇬🇧 EN
+                    🇬���� EN
                   </Button>
                   <Button
                     variant={language === "hi" ? "default" : "outline"}
