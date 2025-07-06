@@ -234,7 +234,7 @@ export default function Index() {
           "अपने विजन को जीवंत बनाने के लिए तैयार हैं? आइए कुछ अद्भुत बनाते हैं।",
         name: "आपका नाम",
         email: "आपका ईमेल",
-        message: "आपका ���ंदेश",
+        message: "आपका संदेश",
         send: "संदेश भेजें",
         location: "मुंबई, भारत",
       },
@@ -375,10 +375,10 @@ export default function Index() {
       <section id="portfolio" className="py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-purple">
+            <h2 className="text-5xl md:text-6xl font-bold mb-4 text-purple">
               {t.portfolio.title}
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               {t.portfolio.subtitle}
             </p>
           </div>
