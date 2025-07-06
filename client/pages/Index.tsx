@@ -204,7 +204,7 @@ export default function Index() {
     hi: {
       hero: {
         greeting: "नमस्ते, मैं हूं",
-        name: "स��हेली गोस्वामी",
+        name: "साहेली गोस्वामी",
         role: "ग्राफिक डिज़ाइनर",
         description:
           "जीवंत और प्रभावशाली डिज़ाइन बनाती हूं जो आपकी कहानी कहते हैं और आपके दर्शकों से जुड़ते हैं।",
@@ -307,7 +307,7 @@ export default function Index() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
                 size="lg"
-                className="bg-magenta hover:bg-magenta/90 text-magenta-foreground px-8 py-6 text-lg rounded-full transform hover:scale-105 transition-all duration-300"
+                className="bg-magenta hover:bg-magenta/90 text-magenta-foreground px-8 py-6 text-xl rounded-full transform hover:scale-105 transition-all duration-300"
               >
                 <Eye className="mr-2 h-5 w-5" />
                 {t.hero.portfolio}
