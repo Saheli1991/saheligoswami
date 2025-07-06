@@ -236,7 +236,7 @@ export default function Index() {
         email: "आपका ईमेल",
         message: "आपका संदेश",
         send: "संदेश भेजें",
-        location: "मुंबई, भारत",
+        location: "��ुंबई, भारत",
       },
       footer: {
         copyright: "© 2024 साहेली गोस्वामी। सभी अधिकार सुरक्षित।",
@@ -437,10 +437,10 @@ export default function Index() {
       <section id="services" className="py-20 bg-card">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-purple">
+            <h2 className="text-5xl md:text-6xl font-bold mb-4 text-purple">
               {t.services.title}
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               {t.services.subtitle}
             </p>
           </div>
