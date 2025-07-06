@@ -54,6 +54,16 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Vibrant portfolio colors */
+    --magenta: 333 77% 52%;
+    --magenta-foreground: 0 0% 100%;
+    --turquoise: 187 100% 42%;
+    --turquoise-foreground: 0 0% 100%;
+    --sunshine: 54 100% 62%;
+    --sunshine-foreground: 0 0% 0%;
+    --purple: 259 49% 50%;
+    --purple-foreground: 0 0% 100%;
   }
 
   .dark {
