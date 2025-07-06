@@ -204,7 +204,7 @@ export default function Index() {
     hi: {
       hero: {
         greeting: "नमस्ते, मैं हूं",
-        name: "साहेली गोस्वामी",
+        name: "स��हेली गोस्वामी",
         role: "ग्राफिक डिज़ाइनर",
         description:
           "जीवंत और प्रभावशाली डिज़ाइन बनाती हूं जो आपकी कहानी कहते हैं और आपके दर्शकों से जुड़ते हैं।",
@@ -292,16 +292,16 @@ export default function Index() {
         <div className="absolute inset-0 bg-gradient-to-r from-magenta/10 via-transparent to-turquoise/10 animate-pulse"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="animate-fade-in">
-            <p className="text-xl md:text-2xl mb-4 text-muted-foreground">
+            <p className="text-2xl md:text-3xl mb-4 text-muted-foreground">
               {t.hero.greeting}
             </p>
-            <h1 className="text-5xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-magenta to-turquoise bg-clip-text text-transparent">
+            <h1 className="text-6xl md:text-9xl font-bold mb-6 bg-gradient-to-r from-magenta to-turquoise bg-clip-text text-transparent">
               {t.hero.name}
             </h1>
-            <h2 className="text-3xl md:text-5xl font-light mb-8 text-purple">
+            <h2 className="text-4xl md:text-6xl font-light mb-8 text-purple">
               {t.hero.role}
             </h2>
-            <p className="text-lg md:text-xl max-w-2xl mx-auto mb-12 text-muted-foreground leading-relaxed">
+            <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-12 text-muted-foreground leading-relaxed">
               {t.hero.description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
