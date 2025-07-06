@@ -214,7 +214,7 @@ export default function Index() {
       about: {
         title: "मेरे बारे में",
         description:
-          "मैं एक भावुक ग्राफिक डिज़ाइनर हूं जिसके पास 5+ वर्षों का अनुभव है। मैं ब्रांडिंग, लोगो डिज़ा��न और डिजिटल ग्राफिक्स में विशेषज्ञ हूं।",
+          "मैं एक भावुक ग्राफिक डिज़ाइनर हूं जिसके पास 5+ वर���षों का अनुभव है। मैं ब्रांडिंग, लोगो डिज़ाइन और डिजिटल ग्राफिक्स में विशेषज्ञ हूं।",
         skills: "कौशल और उपकरण",
       },
       portfolio: {
@@ -239,7 +239,7 @@ export default function Index() {
         location: "मुंबई, भारत",
       },
       footer: {
-        copyright: "© 2024 साहेली गोस��वामी। सभी अधिकार सुरक्षित।",
+        copyright: "© 2024 साहेली गोस्वामी। सभी अधिकार सुरक्षित।",
         darkMode: "डार्क मोड",
         language: "भाषा",
       },
@@ -549,10 +549,10 @@ export default function Index() {
       <section id="contact" className="py-20 bg-card">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-purple">
+            <h2 className="text-5xl md:text-6xl font-bold mb-4 text-purple">
               {t.contact.title}
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               {t.contact.subtitle}
             </p>
           </div>
