@@ -207,7 +207,7 @@ export default function Index() {
         name: "साहेली गोस्वामी",
         role: "ग्राफिक डिज़ाइनर",
         description:
-          "जीवंत और प्रभावशाली डिज़ाइन बनाती हूं जो आपकी कहानी कहते हैं और आपके दर्शकों से जुड़ते हैं।",
+          "जीवंत और प्रभावशाली डिज़ाइन बनाती हूं जो आपकी कहानी कहते हैं और आपके दर्शकों से जुड़ते ��ैं।",
         portfolio: "पोर्टफोलियो देखें",
         resume: "रिज्यूमे डाउनलोड करें",
       },
@@ -292,16 +292,16 @@ export default function Index() {
         <div className="absolute inset-0 bg-gradient-to-r from-magenta/10 via-transparent to-turquoise/10 animate-pulse"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="animate-fade-in">
-            <p className="text-2xl md:text-3xl mb-4 text-muted-foreground">
+            <p className="text-3xl md:text-4xl mb-4 text-muted-foreground">
               {t.hero.greeting}
             </p>
-            <h1 className="text-6xl md:text-9xl font-bold mb-6 bg-gradient-to-r from-magenta to-turquoise bg-clip-text text-transparent">
+            <h1 className="text-7xl md:text-10xl font-bold mb-6 bg-gradient-to-r from-magenta to-turquoise bg-clip-text text-transparent">
               {t.hero.name}
             </h1>
-            <h2 className="text-4xl md:text-6xl font-light mb-8 text-purple">
+            <h2 className="text-5xl md:text-7xl font-light mb-8 text-purple">
               {t.hero.role}
             </h2>
-            <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-12 text-muted-foreground leading-relaxed">
+            <p className="text-2xl md:text-3xl max-w-2xl mx-auto mb-12 text-muted-foreground leading-relaxed">
               {t.hero.description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -344,14 +344,14 @@ export default function Index() {
               </div>
             </div>
             <div>
-              <h2 className="text-5xl md:text-6xl font-bold mb-6 text-purple">
+              <h2 className="text-6xl md:text-7xl font-bold mb-6 text-purple">
                 {t.about.title}
               </h2>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+              <p className="text-2xl text-muted-foreground mb-8 leading-relaxed">
                 {t.about.description}
               </p>
               <div className="mb-8">
-                <h3 className="text-2xl font-semibold mb-4 text-magenta">
+                <h3 className="text-3xl font-semibold mb-4 text-magenta">
                   {t.about.skills}
                 </h3>
                 <div className="flex flex-wrap gap-2">
@@ -375,10 +375,10 @@ export default function Index() {
       <section id="portfolio" className="py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-bold mb-4 text-purple">
+            <h2 className="text-6xl md:text-7xl font-bold mb-4 text-purple">
               {t.portfolio.title}
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-2xl text-muted-foreground max-w-2xl mx-auto">
               {t.portfolio.subtitle}
             </p>
           </div>
@@ -422,10 +422,12 @@ export default function Index() {
                   </div>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-2 text-purple">
+                  <h3 className="text-2xl font-semibold mb-2 text-purple">
                     {project.title}
                   </h3>
-                  <p className="text-muted-foreground">{project.description}</p>
+                  <p className="text-lg text-muted-foreground">
+                    {project.description}
+                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -437,10 +439,10 @@ export default function Index() {
       <section id="services" className="py-20 bg-card">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-bold mb-4 text-purple">
+            <h2 className="text-6xl md:text-7xl font-bold mb-4 text-purple">
               {t.services.title}
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-2xl text-muted-foreground max-w-2xl mx-auto">
               {t.services.subtitle}
             </p>
           </div>
@@ -457,10 +459,12 @@ export default function Index() {
                       {service.icon}
                     </div>
                   </div>
-                  <h3 className="text-xl font-semibold mb-4 text-purple">
+                  <h3 className="text-2xl font-semibold mb-4 text-purple">
                     {service.title}
                   </h3>
-                  <p className="text-muted-foreground">{service.description}</p>
+                  <p className="text-lg text-muted-foreground">
+                    {service.description}
+                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -472,7 +476,7 @@ export default function Index() {
       <section id="testimonials" className="py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-bold mb-4 text-purple">
+            <h2 className="text-6xl md:text-7xl font-bold mb-4 text-purple">
               {t.testimonials.title}
             </h2>
           </div>
@@ -492,14 +496,14 @@ export default function Index() {
                         ),
                       )}
                     </div>
-                    <blockquote className="text-xl md:text-2xl italic text-muted-foreground mb-8 leading-relaxed">
+                    <blockquote className="text-2xl md:text-3xl italic text-muted-foreground mb-8 leading-relaxed">
                       "{testimonials[currentTestimonial].content}"
                     </blockquote>
                     <div>
-                      <p className="font-semibold text-lg text-purple">
+                      <p className="font-semibold text-xl text-purple">
                         {testimonials[currentTestimonial].name}
                       </p>
-                      <p className="text-muted-foreground">
+                      <p className="text-lg text-muted-foreground">
                         {testimonials[currentTestimonial].role},{" "}
                         {testimonials[currentTestimonial].company}
                       </p>
@@ -549,10 +553,10 @@ export default function Index() {
       <section id="contact" className="py-20 bg-card">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-bold mb-4 text-purple">
+            <h2 className="text-6xl md:text-7xl font-bold mb-4 text-purple">
               {t.contact.title}
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-2xl text-muted-foreground max-w-2xl mx-auto">
               {t.contact.subtitle}
             </p>
           </div>
@@ -593,23 +597,23 @@ export default function Index() {
 
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-semibold mb-6 text-purple">
+                <h3 className="text-3xl font-semibold mb-6 text-purple">
                   Connect With Me
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-4 text-muted-foreground">
                     <MapPin className="h-5 w-5 text-turquoise" />
-                    <span>{t.contact.location}</span>
+                    <span className="text-lg">{t.contact.location}</span>
                   </div>
                   <div className="flex items-center space-x-4 text-muted-foreground">
                     <Mail className="h-5 w-5 text-turquoise" />
-                    <span>hello@saheligoswami.com</span>
+                    <span className="text-lg">hello@saheligoswami.com</span>
                   </div>
                 </div>
               </div>
 
               <div>
-                <h4 className="text-lg font-semibold mb-4 text-purple">
+                <h4 className="text-xl font-semibold mb-4 text-purple">
                   Follow My Work
                 </h4>
                 <div className="flex space-x-4">
@@ -646,12 +650,14 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
             <div className="text-center md:text-left">
-              <p className="text-muted-foreground">{t.footer.copyright}</p>
+              <p className="text-lg text-muted-foreground">
+                {t.footer.copyright}
+              </p>
             </div>
 
             <div className="flex items-center space-x-8">
               <div className="flex items-center space-x-3">
-                <span className="text-sm text-muted-foreground">
+                <span className="text-base text-muted-foreground">
                   {t.footer.darkMode}
                 </span>
                 <div className="flex items-center space-x-2">
@@ -662,7 +668,7 @@ export default function Index() {
               </div>
 
               <div className="flex items-center space-x-3">
-                <span className="text-sm text-muted-foreground">
+                <span className="text-base text-muted-foreground">
                   {t.footer.language}
                 </span>
                 <div className="flex space-x-2">
